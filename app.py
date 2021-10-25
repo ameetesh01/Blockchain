@@ -19,7 +19,7 @@ class Blockchain:
     def get_prev_block(self):
         return self.chain[-1]
     
-    def proof_of_work(self, prev_proof):
+    def proof_of_work(self, prev_proof);
         new_proof = 1
         chk_proof = False
         while chk_proof is False:
